@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background-color: rgb(20,7,4);
+    background-image: url('ai.png');
+}
+
+.container{
+	    width: 60%;
+      height: 99.5%;
+    margin: auto;
+    background-color: rgb(31,7,4);
+}
+
+.main {
+	    width: 500px;
+    margin: auto;
+}
+
+.top {
+	    width:70%;
+    margin: auto;
+}
+
+.social{
+  padding-top: 15%;
+  padding-left: 50%;
+}
+
+h1 {
+      color: white;
+}
+
+h2 {
+  border: 1px solid white;
+  padding: 30px;
+  	          color: white;
+}
+
+p {
+
+    color: white;
+}
+
+font {
+	color: white;
+}

@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+	<script src="cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+	<script src="cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+	<script src="nest/p5.speech.js"></script>
+	<script src="nest/action.js"></script>
+	  <link rel="stylesheet" href="nest/stylings.css">
+		<link rel="icon" href="nest/images/illuminati.png">
+		<title>Ashish Yadav</title>
+</head>
+
+<body>
+	<div class="container">
+	<div class="top">
+				<center>
+					<h1 id="title">Welcome to the Future!</h1>
+				<br><br><br><br><br><br><br><br><br>
+			</center>
+			<p>Is there something that you'd like to know? Ash is a cutting edge AI bot that can answer any question that you might have, but first you have to implore with Ash before asking your question. & be cautious, Ash can feel your energy & makes it's own decisions based on it.</p>
+	</div>
+	<div class="main">
+		<center>
+Implore: <input type="text" id="Implore" value="" onkeyup="CheckAccuracy()" style="width: 408px;"><br>
+Question: <input type="text" id="Question" value="" style="width: 400px;"><br>
+<script src="nest/breaker.js"></script>
+
+	<button type="button" onclick="doSpeak()">Ask Ash</button>
+	<button type="button" onclick="reseter()">Reset</button>
+<h2 id="answer"></h2>
+How do you implore with Ash? Using "please ash answer my question" or "please ash answer" work the best, but please be compassionate.
+		</center>
+	</div>
+				<p><center><a bottom=0 href="http://instagram.com/who.is.ashish"><img src="nest/images/insta.png" style="width:15px;height:15px;"></a></center></p>
+	</div>
+</body>
+</html>
